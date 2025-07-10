@@ -1,7 +1,7 @@
 import "./style.css";
 import { createChatUI } from "./components/ChatUI.js";
 
-const API_KEY = ""; // Replace with your real key
+const VITE_API_KEY = import.meta.env.VITE_API_KEY; // Replace with your real key
 
 const context = `
 You are a helpful assistant for a product called Fire Stick from Oshanodes.
